@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/library.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- navigation -->
+    <div class="navBar">
+        <div class="container flex">
+            <a href="index.html"><h1 class="logo">Russian headdress</h1></a>
+            <nav>
+                <ul>
+                    <li><a href="catalog.html"> <span>Каталог</span> </a></li>
+
+                    <li><a href="index.html"><span>Главная</span></a></li>
+
+                    <li><a href="promotions.html" target=""><span>Акции</span></a></li>
+
+                    <li style="white-space: nowrap;"><a href="about.html"><span>О компании</span></a></li>
+
+                    <li><a href="contacts.html"><span>Контакты</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+   <!-- section -->
+   <section class="content"> 
+        <div class="container grid">
+
+            <div class="contentText">
+                <h1>Карта Клиента</h1>
+                <p>В нашем магазине регулярно проводятся акции, для участия в которых нужно обладать Картой Клиента. Заполните форму, чтобы стать нашим постоянным клиентом</p>
+                <a href="promotions.html" class="btn btn-outline" target="">Подробнее</a>
+            </div>
+            
+            <div class="card contentForm ">
+                <h2>Оформить карту клиента</h2>
+                <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+
+                        <input type="hidden" name="form-name" value="contact">
+
+                    <p class="hidden">
+                        <label>Не заполняйте это, если вы человек: <input name="bot-field" /></label>
+                    </p>
+
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Имя" required>
+                    </div>
+
+                    <div class="form-control">
+                        <input type="text" name="surname" placeholder="Фамилия" required>
+                    </div>
+
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+
+                    <input type="submit" value="Отправить заявку" class="btn btn-secondary">
+
+                </form>
+            </div>
+        </div>
+   </section>
+   <!-- main -->
+    <section class="main">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Добро пожаловать в лучший онлайн сервис для покупок головных уборов от отечественных и зарубежных производителей
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-mail-bulk fa-3x"></i>
+                    <h3>1,349,405</h3>
+                    <p class="text-secondary">Положительных отзывов</p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-plus fa-3x"></i>
+                    <h3>4,235,721</h3>
+                    <p class="text-secondary">Покупка</p>
+                </div>
+                <div>
+                    <i class="far fa-handshake fa-3x"></i>
+                    <h3>124,505</h3>
+                    <p class="text-secondary">Постоянных клиентов</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud -->
+    <section class="cloud bg-secondary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="bestShop">Лучший онлайн магазин головных уборов</h2>
+                <p class="easyBuy my-1">Легкие покупки. Быстрая доставка. Лучшие цены.</p>
+                <a href="about.html" class="btn btn-outline">О нас</a>
+            </div>
+            <img src="images/cap.svg" alt="">
+        </div>
+    </section>
+    <!-- friends -->
+    <section class="friends">
+        <h2 class="md text-center my-2">
+            Наши партнеры
+        </h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>CANOE</h4>
+                <img src="images/logos/CANOE.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>CORSONELA</h4>
+                <img src="images/logos/CORSONELA.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>FREDRIKSON</h4>
+                <img src="images/logos/FREDRIKSON.png" alt="">
+            </div>
+            <div class="card">
+                <h4>LANSILAKKI</h4>
+                <img src="images/logos/LANSILAKKI.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>PANIZZA</h4>
+                <img src="images/logos/PANIZZA.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>TONAK</h4>
+                <img src="images/logos/ТОНАК.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Russian headdress
+                </h1>
+                <p>Copyright &copy; 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="promotions.html">Акции</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

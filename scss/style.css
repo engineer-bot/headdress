@@ -1,0 +1,59 @@
+.info .container, .about .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  box-shadow: 3px 0px 11px 3px  #1c3fa877, inset 3px 0px 11px 3px  #002240a2;
+  box-shadow: 0px 3px 11px 3px  #002240a2;
+  max-width: 800px; }
+  .info .container h1, .about .container h1 {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 50px; }
+  .info .container h2, .about .container h2 {
+    margin-top: 20px; }
+  .info .container p, .about .container p {
+    margin-top: 10px;
+    margin-left: 15px;
+    text-indent: 50px; }
+  .info .container div, .about .container div {
+    margin-top: 20px;
+    border-left: solid rgba(0, 0, 0, 0.377) 2px; }
+
+.about .container {
+  max-width: 600px; }
+.about p {
+  padding-left: 10px;
+  text-indent: 50px; }
+
+.about ul {
+  list-style-type: disc;
+  padding-left: 10px;
+  margin-left: 25px; }
+  .about ul li {
+    margin-top: 15px; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    padding: 0 10px;
+    margin-left: 5vw;
+    margin-right: 5vw; }
+    .container .card {
+      max-width: 90%;
+      height: 200px; } }
+.catalog {
+  margin-top: 40px; }
+  .catalog .container {
+    flex-wrap: wrap; }
+    .catalog .container .card {
+      width: 200px;
+      height: 250px; }
+
+.property {
+  width: 100%;
+  height: 80px;
+  background-color: var(--secondary-color); }
+
+/*# sourceMappingURL=style.css.map */
